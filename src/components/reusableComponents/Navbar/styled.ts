@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import constants from "../../constants";
+import constants from "../../../constants";
+import ReusableButton from "../Button";
 
 export const NavBarContainer = styled.div`
   display: flex;

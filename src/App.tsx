@@ -1,7 +1,6 @@
 import React from "react";
 import Background from "../src/components/LandingPageBackground";
-import NavBar from "../src/components/Navbar";
-import WelcomeVideo from "../src/components/LandingPageVideo";
+import NavBar from "./components/reusableComponents/Navbar";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
-import WelcomeVideo from "../LandingPageVideo";
+import WelcomeVideo from "../../LandingPageVideo";
 
 const NavBar = () => {
   return (
@@ -15,7 +15,7 @@ const NavBar = () => {
           <Nav.Link href="#pricing">About</Nav.Link>
         </Nav>
 
-        <Button variant="outline-dark" style={{ border: "1px solid #5e3a44" }}>
+        <Button className="navbarButton" variant="outline-dark">
           Get started
         </Button>
       </Navbar>
