@@ -1,4 +1,4 @@
 const colors = {
-  workieNavBarColor: "#614857"
+  workieNavBarColor: "#000000"
 };
 export default { colors };

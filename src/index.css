@@ -1,3 +1,15 @@
 body {
   margin: 0px;
+  padding: 0;
+}
+
+.navbarButton {
+  background-color: transparent;
+  border: 1px solid #5e3a44 !important;
+  border-radius: 22px !important;
+  color: #5e3a44 !important;
+}
+.navbarButton:hover {
+  background-color: #5e3a44 !important;
+  color: white !important;
 }
