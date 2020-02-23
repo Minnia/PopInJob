@@ -1,8 +1,19 @@
 import React from "react";
-import { ContentContainerDiv } from "./styled";
+import { ContentContainerDiv, ContentImage, ContentText } from "./styled";
 
 const ContentContainer = () => {
-  return <ContentContainerDiv />;
+  return (
+    <div>
+      <ContentContainerDiv>
+        <ContentImage />
+        <ContentText />
+      </ContentContainerDiv>
+      <ContentContainerDiv>
+        <ContentText />
+        <ContentImage />
+      </ContentContainerDiv>
+    </div>
+  );
 };
 
 export default ContentContainer;
