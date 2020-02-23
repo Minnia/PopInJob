@@ -8,7 +8,6 @@ export const NavBarContainer = styled.div`
   justify-content: flex-end;
   height: 5vh;
   width: 100vw;
-  background: ${constants.colors.workieNavBarColor};
 `;
 
 export const NavBarTitle = styled.div`
