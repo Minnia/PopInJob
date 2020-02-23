@@ -12,12 +12,14 @@ export const ContentContainerDiv = styled.div`
 `;
 
 export const ContentImage = styled.img`
-  height: 60vh;
-  width: 30vw;
-  background-color: blue;
+  max-width: 50%;
+  max-height: 70%;
 `;
 
-export const ContentText = styled(ContentImage)`
+export const ContentText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 40vw;
-  background-color: red;
+  color: white;
 `;
