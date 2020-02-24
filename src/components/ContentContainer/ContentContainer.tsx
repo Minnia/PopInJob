@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Button } from "react-bootstrap";
 import { ContentContainerDiv, ContentImage, ContentText } from "./styled";
 
 const ContentContainer = () => {
