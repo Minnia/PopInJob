@@ -13,3 +13,14 @@ body {
   background-color: #5e3a44 !important;
   color: white !important;
 }
+
+.newsletterButton {
+  background-color: transparent;
+  border: 1px solid white !important;
+  border-radius: 22px !important;
+  color: white !important;
+}
+.newsletterButton:hover {
+  background-color: white !important;
+  color: #bb8dc7 !important;
+}

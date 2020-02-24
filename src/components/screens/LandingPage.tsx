@@ -3,6 +3,7 @@ import Background from "../LandingPageBackground";
 import NavBar from "../reusableComponents/Navbar";
 import ContentContainer from "../ContentContainer";
 import CollaboratingCompanies from "../CollaboratingCompanies";
+import NewsLetterBox from "../NewsLetterBox";
 
 const LandingPage = () => {
   return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <NavBar />
       <ContentContainer />
       <CollaboratingCompanies />
+      <NewsLetterBox />
     </Background>
   );
 };
