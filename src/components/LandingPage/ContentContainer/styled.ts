@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import constants from "../../constants";
+import constants from "../../../constants";
 
 export const ContentContainerDiv = styled.div`
   height: 500px;

@@ -4,6 +4,7 @@ import NavBar from "../../reusableComponents/Navbar";
 import ContentContainer from "../ContentContainer";
 import CollaboratingCompanies from "../CollaboratingCompanies";
 import NewsLetterBox from "../NewsLetterBox";
+import UserStatistics from "../UserStatistics";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <ContentContainer />
       <CollaboratingCompanies />
       <NewsLetterBox />
+      <UserStatistics />
     </Background>
   );
 };
