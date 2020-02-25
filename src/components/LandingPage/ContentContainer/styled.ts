@@ -11,7 +11,9 @@ export const ContentContainerDiv = styled.div`
   padding: 16px 0;
 `;
 
-export const ContentImage = styled.img`
+export const ContentImage = styled.img.attrs({
+  src: "./images/Smiling_At_work.png"
+})`
   max-width: 50%;
   max-height: 70%;
 `;

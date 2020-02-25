@@ -6,7 +6,6 @@ import {
 } from "./styled";
 
 const UserStatistics = () => {
-  const statistics = require("../../../assets/images/statistics.png");
   return (
     <UserStatisticsContainer>
       <StatisticsText>
@@ -21,7 +20,7 @@ const UserStatistics = () => {
         rutrum ipsum. Vestibulum augue lectus, varius ut magna a, molestie
         gravida erat.{" "}
       </StatisticsText>
-      <LandingPageStatistics src={statistics} />
+      <LandingPageStatistics />
     </UserStatisticsContainer>
   );
 };

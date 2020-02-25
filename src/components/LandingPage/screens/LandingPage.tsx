@@ -5,6 +5,7 @@ import ContentContainer from "../ContentContainer";
 import CollaboratingCompanies from "../CollaboratingCompanies";
 import NewsLetterBox from "../NewsLetterBox";
 import UserStatistics from "../UserStatistics";
+import Footer from "../Footer";
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <CollaboratingCompanies />
       <NewsLetterBox />
       <UserStatistics />
+      <Footer />
     </Background>
   );
 };
