@@ -1,13 +1,8 @@
 import React from "react";
-import Background from "../src/components/LandingPageBackground";
-import NavBar from "./components/reusableComponents/Navbar";
+import LandingPage from "./components/LandingPage/screens";
 
 function App() {
-  return (
-    <Background>
-      <NavBar />
-    </Background>
-  );
+  return <LandingPage />;
 }
 
 export default App;

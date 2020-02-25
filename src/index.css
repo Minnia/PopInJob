@@ -1,15 +1,27 @@
 body {
   margin: 0px;
   padding: 0;
+  color: #fff;
 }
 
 .navbarButton {
   background-color: transparent;
-  border: 1px solid #5e3a44 !important;
+  border: 1px solid #bb8dc7 !important;
   border-radius: 22px !important;
-  color: #5e3a44 !important;
+  color: #fff !important;
 }
 .navbarButton:hover {
-  background-color: #5e3a44 !important;
+  background-color: #bb8dc7 !important;
   color: white !important;
+}
+
+.newsletterButton {
+  background-color: transparent;
+  border: 1px solid white !important;
+  border-radius: 22px !important;
+  color: white !important;
+}
+.newsletterButton:hover {
+  background-color: white !important;
+  color: #bb8dc7 !important;
 }

@@ -1,4 +1,4 @@
 const colors = {
-  workieNavBarColor: "#000000"
+  landingPagePurple: "#BB8DC7"
 };
 export default { colors };
