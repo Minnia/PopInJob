@@ -5,7 +5,9 @@ export const StatisticsText = styled.div`
   width: 40vw;
 `;
 
-export const LandingPageStatistics = styled.img`
+export const LandingPageStatistics = styled.img.attrs({
+  src: "./images/statistics.png"
+})`
   max-width: 70%;
   width: 40vw;
 `;

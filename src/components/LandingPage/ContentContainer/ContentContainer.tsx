@@ -3,11 +3,10 @@ import { Button } from "react-bootstrap";
 import { ContentContainerDiv, ContentImage, ContentText } from "./styled";
 
 const ContentContainer = () => {
-  const image = require("../../../../src/assets/images/Smiling_At_work.png");
   return (
     <div>
       <ContentContainerDiv>
-        <ContentImage src={image} />
+        <ContentImage />
         <ContentText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
           ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed
@@ -30,7 +29,7 @@ const ContentContainer = () => {
           commodo placerat id non quam. Sed ac tellus at orci pellentesque
           iaculis sit amet in sem.
         </ContentText>
-        <ContentImage src={image} />
+        <ContentImage />
       </ContentContainerDiv>
     </div>
   );
