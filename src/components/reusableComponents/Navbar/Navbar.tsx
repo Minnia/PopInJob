@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar, Nav, Button, Image } from "react-bootstrap";
-import WelcomeVideo from "../../LandingPageVideo";
-import { NavBarContainer, NavBarTitle } from "./styled";
+import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
+import WelcomeVideo from "../../../components/LandingPage/LandingPageVideo";
+import { NavBarContainer } from "./styled";
 
 const NavBar = () => {
   return (
