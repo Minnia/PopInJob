@@ -6,15 +6,16 @@ export const NavBarContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  height: 5vh;
-  width: 100vw;
+  align-items: flex-start;
+  height: 50vh;
 `;
 
 export const NavBarTitle = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 5vh;
-  width: 100vw;
+  justify-content: flex-start;
+  background-color: black;
   color: white;
+  width: 100vw;
 `;
