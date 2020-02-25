@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   height: 300px;
   width: 100vw;
+  padding-top: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -20,4 +21,15 @@ export const ContactInformationHeader = styled.h1`
 
 export const ContactInformationAddress = styled.p`
   font-size: 15px;
+`;
+
+export const Hours = styled.div`
+  font-size: 24px;
+  font-weight: bold;
+`;
+
+export const SocialMediaInformation = styled(Hours)``;
+
+export const HoursInformation = styled(ContactInformationAddress)`
+  font-weight: normal;
 `;

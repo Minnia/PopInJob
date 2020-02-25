@@ -3,7 +3,10 @@ import {
   FooterContainer,
   ContactInformation,
   ContactInformationHeader,
-  ContactInformationAddress
+  ContactInformationAddress,
+  Hours,
+  SocialMediaInformation,
+  HoursInformation
 } from "./styled";
 
 const Footer = () => {
@@ -18,9 +21,13 @@ const Footer = () => {
         <ContactInformationAddress>email@example.com</ContactInformationAddress>
         <ContactInformationAddress>555-555 555</ContactInformationAddress>
       </ContactInformation>
-      <div>Hours</div>
+      <Hours>
+        Hours
+        <HoursInformation>Monday-Friday</HoursInformation>
+        <HoursInformation>8-17</HoursInformation>
+      </Hours>
 
-      <div>Follow</div>
+      <SocialMediaInformation>Follow</SocialMediaInformation>
     </FooterContainer>
   );
 };
