@@ -14,7 +14,7 @@ export const ContentContainerDiv = styled.div`
 export const ContentImage = styled.img.attrs({
   src: "./images/Smiling_At_work.png"
 })`
-  max-width: 50%;
+  max-width: 100%;
   max-height: 70%;
 `;
 
@@ -23,5 +23,12 @@ export const ContentText = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 40vw;
+  color: white;
+`;
+
+export const ContentTitle = styled.h1`
+  margin: 0;
+  padding: 48px;
+  font-weight: bold;
   color: white;
 `;
