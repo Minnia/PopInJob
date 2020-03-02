@@ -14,16 +14,16 @@ const NavBar = () => {
               flexDirection: "row",
               justifyContent: "flex-start"
             }}
-            href="#home"
+            href="/"
           >
             WORKIE
           </Navbar.Brand>
 
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">You</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/you">You</Nav.Link>
             <Nav.Link href="#features">Blog</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
           </Nav>
           <Button className="navbarButton" variant="outline-dark">
             Get started

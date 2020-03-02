@@ -18,7 +18,7 @@ const UserStatistics = () => {
         quis, luctus est. Morbi id tristique tortor. Fusce id pharetra sapien,
         at scelerisque ante. Fusce massa velit, bibendum a orci in, blandit
         rutrum ipsum. Vestibulum augue lectus, varius ut magna a, molestie
-        gravida erat.{" "}
+        gravida erat.
       </StatisticsText>
       <LandingPageStatistics />
     </UserStatisticsContainer>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import constants from "../../../constants";
 
 export const FooterContainer = styled.div`
   height: 300px;
@@ -16,16 +17,18 @@ export const ContactInformation = styled.div`
 `;
 
 export const ContactInformationHeader = styled.h1`
-  color: black;
+  color: ${constants.colors.redCurrant};
 `;
 
 export const ContactInformationAddress = styled.p`
   font-size: 15px;
+  color: grey;
 `;
 
 export const Hours = styled.div`
   font-size: 24px;
   font-weight: bold;
+  color: ${constants.colors.redCurrant};
 `;
 
 export const SocialMediaInformation = styled(Hours)``;
