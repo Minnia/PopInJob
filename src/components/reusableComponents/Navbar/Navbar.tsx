@@ -5,7 +5,7 @@ import { NavBarContainer } from "./styled";
 
 const NavBar = () => {
   return (
-    <WelcomeVideo>
+    <WelcomeVideo video>
       <NavBarContainer>
         <Navbar bg="none" variant="dark">
           <Navbar.Brand
