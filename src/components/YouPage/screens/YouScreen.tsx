@@ -9,9 +9,7 @@ const YouScreen = () => {
     <>
       <Navbar />
       <YourJourney />
-
       <ContentContainer reverse title={`Start your journey here.`} />
-
       <Footer />
     </>
   );

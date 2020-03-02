@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledDiv = styled.div<{ src?: any }>`
+export const StyledDiv = styled.div`
   height: 500px;
   width: 100vw;
   display: block;
