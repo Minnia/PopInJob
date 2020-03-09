@@ -1,7 +1,7 @@
 import React from "react";
 import {
   SubBoxes, 
-  SubTitel, 
+  SubTitle, 
   SubText, 
   SubBox, 
   SubRows,
@@ -17,9 +17,13 @@ const AboutSubCard = () => {
     <Container>
     <SubBoxes>  
       <SubBox>
-          <SubTitel>Subscribe</SubTitel>
+          <SubTitle>Subscribe</SubTitle>
         
-          <SubText>For what users:info</SubText>
+        <SubText>Free</SubText>
+
+      <hr/>
+
+        <SubText>For what users:info</SubText>
         
       <hr/>
         

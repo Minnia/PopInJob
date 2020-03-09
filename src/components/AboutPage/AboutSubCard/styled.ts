@@ -5,18 +5,18 @@ import Row from 'react-bootstrap/Row';
 export const SubBoxes = styled.div`
 display: flex;
 justify-content: space-evenly;
-margin: 0% 30%;
-padding: 5%;
+margin: 10% 10%;
+padding: 10%;
 
 `;
 
 export const SubBox = styled(Col)`
 
 background: #bfb1c4;
-width: 20%;
-height: 20%;
+width: 40%;
+height: 60%;
 border: 2px solid black;
-border-radius: 25px;
+
 justify-content: space-evenly;
 margin: 5%;
 `;
@@ -25,7 +25,7 @@ export const SubRows = styled(Row)`
 border: 5px solid gray;
 `;
 
-export const SubTitel = styled.h2`
+export const SubTitle = styled.h2`
 background: #65c0ba;
 border-radius: 10px;
 display: flex;
