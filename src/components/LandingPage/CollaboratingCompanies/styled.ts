@@ -9,3 +9,14 @@ export const CollaboratorsDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
 `;
+
+export const LogTitel = styled.h1`
+  display: flex;
+  justify-content: center;
+  align-item: center;
+`;
+
+export const LogoSize = styled.div`
+  max-width: 50%;
+  max-height: 50%;
+`;
