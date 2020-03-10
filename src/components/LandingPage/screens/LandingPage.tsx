@@ -6,11 +6,13 @@ import CollaboratingCompanies from "../CollaboratingCompanies";
 import NewsLetterBox from "../NewsLetterBox";
 import UserStatistics from "../UserStatistics";
 import Footer from "../../reusableComponents/Footer";
+import LoginComponet from "../LoginComponent";
 
 const LandingPage = () => {
   return (
     <Background>
       <NavBar />
+      <LoginComponet/>
       <ContentContainer
         contentText={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
           ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed
