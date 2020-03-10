@@ -1,17 +1,8 @@
 import React from "react";
-import { StyledDiv, WhiteBackground } from "./styled";
+import { StyledDiv } from "./styled";
 
-type Props = {
-  video?: boolean;
-  children: any;
-};
-
-export const WelcomeVideo = ({ children, video }: Props) => {
-  return video ? (
-    <StyledDiv>{children}</StyledDiv>
-  ) : (
-    <WhiteBackground>{children}</WhiteBackground>
-  );
+export const WelcomeVideo = ({ children }) => {
+  return <StyledDiv>{children}</StyledDiv>;
 };
 
 export default WelcomeVideo;
