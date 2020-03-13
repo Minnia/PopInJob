@@ -14,12 +14,15 @@ const Footer = () => {
     <FooterContainer>
       <ContactInformation>
         <ContactInformationHeader>Contact Us</ContactInformationHeader>
-        <ContactInformationAddress>123 Example Road</ContactInformationAddress>
-        <ContactInformationAddress>
-          New York, NY 12345
+        <ContactInformationAddress style={{ fontWeight: "bold" }}>
+          Address
         </ContactInformationAddress>
-        <ContactInformationAddress>email@example.com</ContactInformationAddress>
-        <ContactInformationAddress>555-555 555</ContactInformationAddress>
+        <ContactInformationAddress>
+          Malmskillnadsgatan 32
+        </ContactInformationAddress>
+        <ContactInformationAddress>Stockholm</ContactInformationAddress>
+        <ContactInformationAddress>info@antler.co</ContactInformationAddress>
+        {/* <ContactInformationAddress>555-555 555</ContactInformationAddress> */}
       </ContactInformation>
       <Hours>
         Hours

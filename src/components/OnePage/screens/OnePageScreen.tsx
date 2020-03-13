@@ -1,7 +1,8 @@
 import React from "react";
+import OnePage from "../OnePage";
 
 const OnePageScreen = () => {
-  return <div></div>;
+  return <OnePage />;
 };
 
 export default OnePageScreen;

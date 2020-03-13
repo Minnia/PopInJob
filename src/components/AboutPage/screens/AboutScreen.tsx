@@ -8,12 +8,12 @@ import Footer from "../../reusableComponents/Footer";
 const AboutScreen = () => {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <AboutUsContainer image />
       <AboutUsContainer />
-      <CollaboratingCompanies />
+      {/* <CollaboratingCompanies /> */}
       <DefaultImage />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

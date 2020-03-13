@@ -1,11 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import { 
-  CollaboratorsDiv,
-  LogTitel,
-  LogoSize
-  
-} from "./styled";
+import { CollaboratorsDiv, LogTitel, LogoSize } from "./styled";
 
 const CollaboratingCompanies = () => {
   const T2 = require("../../../../src/assets/images/T2 tea.png");
@@ -17,47 +12,30 @@ const CollaboratingCompanies = () => {
   const Harrods = require("../../../../src/assets/images/Harrods.jpeg");
   const HM = require("../../../../src/assets/images/H&M.png");
   const Coca = require("../../../../src/assets/images/CocaCola.png");
+  const logos = [Unilever, LV, DIOR, HM, Coca];
 
   return (
     <div>
-
       <div>
-        <LogTitel>SOME OF OUR VALUED BRANDS</LogTitel>
+        <LogTitel>A few of our collaborators</LogTitel>
       </div>
       <LogoSize>
-      <CollaboratorsDiv>
-        
-          <Image src={T2} fluid />
-        
-          <Image src={Unilever} fluid />
-        
-          <Image src={PepsiCo} fluid />
-         
-          <Image src={Gc} fluid />
-
-      </CollaboratorsDiv>
+        <CollaboratorsDiv>
+          {logos.map(logo => (
+            <Image
+              key={logo}
+              style={{
+                backgroundImage: `url(${logo})`,
+                width: 200,
+                height: 200,
+                marginRight: 8
+              }}
+            />
+          ))}
+        </CollaboratorsDiv>
       </LogoSize>
 
-      <hr/>
-
-      <div>
-        <LogTitel>SOME OF OUR COLLY's HAVE WORKED FOR</LogTitel>
-      </div>
-
-      <CollaboratorsDiv>
-        
-        <Image src={LV} fluid />
-        
-        <Image src={DIOR} fluid />
-        
-        <Image src={HM} fluid />
-                
-        <Image src={Harrods} fluid />
-        
-        <Image src={Coca} fluid />
-
-      </CollaboratorsDiv>
-
+      <hr />
     </div>
   );
 };

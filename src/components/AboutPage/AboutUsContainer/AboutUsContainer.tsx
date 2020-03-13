@@ -4,6 +4,7 @@ import AboutUsImage from "../AboutUsImage";
 
 type Props = {
   image?: boolean;
+  width?: number;
 };
 
 const AboutUsContainer = ({ image }: Props) => {
@@ -11,15 +12,11 @@ const AboutUsContainer = ({ image }: Props) => {
     <>
       <AboutContainer>
         <InformationContainer>
-          Aenean bibendum sapien augue, in egestas sapien semper eget. Nulla
-          vitae convallis lorem. Etiam scelerisque augue non tortor consectetur
-          venenatis. Sed finibus at nisl quis varius. Donec dignissim ipsum
-          lacus, id tincidunt sapien molestie vel. Aliquam bibendum eros vitae
-          tincidunt tempor. Curabitur nec enim tincidunt, ultricies libero quis,
-          luctus est. Morbi id tristique tortor. Fusce id pharetra sapien, at
-          scelerisque ante. Fusce massa velit, bibendum a orci in, blandit
-          rutrum ipsum. Vestibulum augue lectus, varius ut magna a, molestie
-          gravida erat.
+          With over 10 years of experience within staffing & recruitment firms
+          in the Worlds largest HR consultancies, Adecco & Randstad, we feel
+          confident in now taking the next step to digitalise the staffing
+          process. We have great knowledge and awareness in the hidden talent
+          that hasn’t been able to receive their dream job..
         </InformationContainer>
         <AboutUsImage />
       </AboutContainer>
@@ -27,14 +24,11 @@ const AboutUsContainer = ({ image }: Props) => {
   ) : (
     <AboutContainer>
       <InformationContainer>
-        Aenean bibendum sapien augue, in egestas sapien semper eget. Nulla vitae
-        convallis lorem. Etiam scelerisque augue non tortor consectetur
-        venenatis. Sed finibus at nisl quis varius. Donec dignissim ipsum lacus,
-        id tincidunt sapien molestie vel. Aliquam bibendum eros vitae tincidunt
-        tempor. Curabitur nec enim tincidunt, ultricies libero quis, luctus est.
-        Morbi id tristique tortor. Fusce id pharetra sapien, at scelerisque
-        ante. Fusce massa velit, bibendum a orci in, blandit rutrum ipsum.
-        Vestibulum augue lectus, varius ut magna a, molestie gravida erat.
+        With over 10 years of experience within staffing & recruitment firms in
+        the Worlds largest HR consultancies, Adecco & Randstad, we feel
+        confident in now taking the next step to digitalise the staffing
+        process. We have great knowledge and awareness in the hidden talent that
+        hasn’t been able to receive their dream job.
       </InformationContainer>
     </AboutContainer>
   );
