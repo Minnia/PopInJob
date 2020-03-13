@@ -6,12 +6,13 @@ import {
   SignupButton,
   ComponentContaner,
   RowObjects,
-  Logindiv
+  Logindiv,
+  CheckBox
   
   } from "./styled";
 
 import { Container, FormCheck } from "react-bootstrap";
-import { InputGroupCheckbox } from "react-bootstrap/InputGroup";
+import Form from "react-bootstrap/Form";
 
 
 
@@ -21,7 +22,7 @@ const LoginEmployer = () => {
     
   <>
     <ComponentContaner>
-      <Tital>Signup Eployer</Tital>
+      <Tital>Signup page</Tital>
     
       <Logindiv>
           
@@ -30,7 +31,23 @@ const LoginEmployer = () => {
           
         <Text>Password</Text>
         <InputFeiled/>
-      
+
+        <CheckBox>
+          <Form.Check 
+          type="radio"
+          label="For Employer"
+          name="WorkOrWorker"
+          id="WorkOrWorker1"
+          />
+          
+          <Form.Check
+          type="radio"
+          label="For Employee"
+          name="WorkOrWorker"
+          id="WorkOrWorker2"
+          />
+        
+        </CheckBox>
 
         <SignupButton> Sign in </SignupButton>
     
