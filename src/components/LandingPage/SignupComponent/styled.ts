@@ -1,18 +1,19 @@
 import styled from "styled-components";
+import { Button } from "react-bootstrap";
 
-export const LoginBackground = styled.div`
+export const SignupBackground = styled.div`
 
 background-color: white;
 `;
 
-export const LoginButton = styled.button`
-margin: 2%;
-paddign: 0%;
+export const SignupButton = styled(Button)`
+margin: 0% 0% 15% 0%;
+paddign: 5% 5% 5% 5%;
 background-color: #d4aef5;
 border-radius: 20px;
 `;
 
-export const LoginTital = styled.h1`
+export const SignupTital = styled.h1`
 
 display: flex;
 justify-content: space-evenly;

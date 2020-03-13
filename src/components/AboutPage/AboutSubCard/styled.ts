@@ -40,4 +40,5 @@ justify-content: space-evenly;
 export const SubButton = styled.button`
 display: flex;
 justify-content: space-evenly;
+border-radius: 20px;
 `;
