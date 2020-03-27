@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Button } from "react-bootstrap";
 
-export const Logindiv = styled.div`
+export const Signdiv = styled.div`
 
 background: #bfb1c4;
 justify-content: space-evenly;
@@ -33,13 +33,13 @@ justify-content: space-evenly;
 
 export const InputFeiled = styled.input`
 
-margin: 0% 0% 0% 30%;
+margin: 0% 0% 0% 25%;
 
 `;
 
 export const Text = styled.text`
 
-margin: 0% 0% 0% 30%;
+margin: 0% 0% 0% 25%;
 
 `;
 
@@ -48,7 +48,7 @@ export const Tital = styled.h2`
 background: #65c0ba;
 border-radius: 10px;
 display: flex;
-margin 5% 35%;
+margin 5% 35% 5% 35%;
 justify-content: space-evenly;
 
 `;

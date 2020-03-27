@@ -33,6 +33,15 @@ const SignupComponent = () => {
           </SignupButton>
       </Link>
 
+      <Link to="../screens" > 
+          <SignupButton renderAs="button">
+          
+            <h2>Login</h2>
+            
+          </SignupButton>
+      </Link>
+
+
     </ButtonContaner>
   </SignupBackground>
   );

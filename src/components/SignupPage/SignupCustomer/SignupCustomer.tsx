@@ -6,7 +6,7 @@ import {
   SignupButton,
   ComponentContaner,
   RowObjects,
-  Logindiv,
+  Signdiv,
   CheckBox
   
   } from "./styled";
@@ -17,20 +17,23 @@ import Form from "react-bootstrap/Form";
 
 
 
-const LoginEmployer = () => {
+const SignupCustomer = () => {
   return (
     
   <>
     <ComponentContaner>
       <Tital>Signup page</Tital>
     
-      <Logindiv>
+      <Signdiv>
           
         <Text>Your email</Text>      
         <InputFeiled/>
           
         <Text>Password</Text>
-        <InputFeiled/>
+        <InputFeiled type="password"/>
+
+        <Text>Confurm Password</Text>
+        <InputFeiled type="password" />
 
         <CheckBox>
           <Form.Check 
@@ -51,10 +54,10 @@ const LoginEmployer = () => {
 
         <SignupButton> Sign in </SignupButton>
     
-      </Logindiv>
+      </Signdiv>
     </ComponentContaner>
   </>
   );
 };
 
-export default LoginEmployer;
+export default SignupCustomer;

@@ -1,8 +1,6 @@
 import React from "react";
-import LoginEmployee from "../SignupEmployee";
-import LoginEmployer from "../SignupEmployer";
+import SignupCustomer from "../SignupCustomer/SignupCustomer";
 import Navbar from "../../reusableComponents/Navbar";
-import Footer from "../../reusableComponents/Footer";
 
 import { Titel, ContntDiv } from "./styled";
 
@@ -11,11 +9,9 @@ const LoginPage = () => {
     <div>
       <Navbar/>
 
-      <Titel> Welcome to Login page</Titel>
+      <ContntDiv>
 
-      <ContntDiv >
-
-        <LoginEmployer/>
+        <SignupCustomer/>
       
       </ContntDiv>
 
