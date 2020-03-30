@@ -13,6 +13,7 @@ import {
   QuestionTital,
   SignupBackground 
 } from "./styled"; 
+import LoginPage from "../../LoginPage/screens";
 
 
 const SignupComponent = () => {
@@ -25,7 +26,7 @@ const SignupComponent = () => {
 
     <ButtonContaner>
          
-      <Link to="../screens" > 
+      <Link to="../SignupPage/screens" > 
           <SignupButton renderAs="button">
           
             <h2>Sign up</h2>
@@ -33,7 +34,7 @@ const SignupComponent = () => {
           </SignupButton>
       </Link>
 
-      <Link to="../screens" > 
+      <Link to="../LoginPage/screens" > 
           <SignupButton renderAs="button">
           
             <h2>Login</h2>
