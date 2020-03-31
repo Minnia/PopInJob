@@ -25,7 +25,7 @@ const SignupComponent = () => {
 
     <ButtonContaner>
          
-      <Link to="../screens" > 
+      <Link to="../SignupPage" > 
           <SignupButton renderAs="button">
           
             <h2>Sign up</h2>
@@ -33,7 +33,7 @@ const SignupComponent = () => {
           </SignupButton>
       </Link>
 
-      <Link to="../screens" > 
+      <Link to="../LoginPage" > 
           <SignupButton renderAs="button">
           
             <h2>Login</h2>

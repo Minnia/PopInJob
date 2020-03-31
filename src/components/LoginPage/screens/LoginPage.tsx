@@ -1,17 +1,17 @@
 import React from "react";
-import SignupCustomer from "../SignupCustomer/SignupCustomer";
+import LoginCustomer from "../LoginCustomer/LoginCustomer";
 import Navbar from "../../reusableComponents/Navbar";
 
 import { Titel, ContntDiv } from "./styled";
 
-const SignupPage = () => {
+const LoginPage = () => {
   return (
     <div>
       <Navbar/>
 
       <ContntDiv>
 
-        <SignupCustomer/>
+        <LoginCustomer/>
       
       </ContntDiv>
 
@@ -19,4 +19,4 @@ const SignupPage = () => {
   );
 };
 
-export default SignupPage;
+export default LoginPage;
