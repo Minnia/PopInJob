@@ -14,9 +14,6 @@ import {
 import { Container, FormCheck } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 
-
-
-
 const LoginCustomer = () => {
   return (
     

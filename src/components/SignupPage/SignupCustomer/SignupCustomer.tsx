@@ -14,9 +14,6 @@ import {
 import { Container, FormCheck } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 
-
-
-
 const SignupCustomer = () => {
   return (
     
@@ -51,7 +48,7 @@ const SignupCustomer = () => {
           />
         
         </CheckBox>
-
+        
         <SignupButton> Sign in </SignupButton>
     
       </Signdiv>
