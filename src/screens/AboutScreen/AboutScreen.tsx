@@ -5,12 +5,9 @@ import AboutUsContainer from "../../components/AboutPage/AboutUsContainer";
 const AboutScreen = () => {
   return (
     <>
-      {/* <NavBar /> */}
       <AboutUsContainer image />
       <AboutUsContainer />
-      {/* <CollaboratingCompanies /> */}
       <DefaultImage />
-      {/* <Footer /> */}
     </>
   );
 };
