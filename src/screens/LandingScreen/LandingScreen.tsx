@@ -1,18 +1,18 @@
 import React from "react";
-import Background from "../LandingPageBackground";
-import NavBar from "../../reusableComponents/Navbar";
-import ContentContainer from "../../reusableComponents/ContentContainer";
-import CollaboratingCompanies from "../CollaboratingCompanies";
-import NewsLetterBox from "../NewsLetterBox";
-import UserStatistics from "../UserStatistics";
-import Footer from "../../reusableComponents/Footer";
-import SigninComponet from "../SignupComponent";
+import Background from "../../components/LandingPage/LandingPageBackground";
+import NavBar from "../../components/reusableComponents/Navbar";
+import ContentContainer from "../../components/reusableComponents/ContentContainer";
+import CollaboratingCompanies from "../../components/LandingPage/CollaboratingCompanies";
+import NewsLetterBox from "../../components/LandingPage/NewsLetterBox";
+import UserStatistics from "../../components/LandingPage/UserStatistics";
+import Footer from "../../components/reusableComponents/Footer";
+import SigninComponet from "../../components/LandingPage/SignupComponent";
 
 const LandingPage = () => {
   return (
     <Background>
       <NavBar />
-      <SigninComponet/>
+      <SigninComponet />
       <ContentContainer
         contentText={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
           ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed

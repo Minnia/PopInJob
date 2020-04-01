@@ -1,21 +1,20 @@
 import React from "react";
-import LandingPage from "./components/LandingPage/screens";
-import AboutScreen from "./components/AboutPage/screens";
+import LandingPage from "./screens/LandingScreen";
+import AboutScreen from "../src/screens/AboutScreen";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import YouScreen from "./components/YouPage/screens";
-import SigninPage from "./components/SignupPage/screens";
-
+import YouScreen from "../src/screens/YouScreen";
+import SigninPage from "../src/screens/SignUpScreen";
+import LoginScreen from "./screens/LoginScreen";
 
 const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-
-      <Route path="/screens" component={SigninPage}/>
-
+        <Route path="/login" component={LoginScreen} />
+        <Route path="/signup" component={SigninPage} />
         <Route path="/about" component={AboutScreen} />
         <Route path="/you" component={YouScreen} />
-        <Route path="/" component={LandingPage} />      
+        <Route path="/" component={LandingPage} />
       </Switch>
     </Router>
   );

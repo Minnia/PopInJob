@@ -1,49 +1,38 @@
 import React from "react";
 import { Button, Row } from "react-bootstrap";
-
-import SignupPage from "../../SignupPage/screens";
-
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-
 
 import {
   SignupButton,
   ButtonContaner,
   SignupTital,
   QuestionTital,
-  SignupBackground 
-} from "./styled"; 
-
+  SignupBackground
+} from "./styled";
 
 const SignupComponent = () => {
   return (
-  <SignupBackground>
-      
-    <SignupTital>Wanna join</SignupTital>
+    <SignupBackground>
+      <SignupTital>Wanna join</SignupTital>
 
-    <QuestionTital>You can join as an employer or an employee below</QuestionTital>
+      <QuestionTital>
+        You can join as an employer or an employee below
+      </QuestionTital>
 
-    <ButtonContaner>
-         
-      <Link to="../../screens/SignupPage" > 
+      <ButtonContaner>
+        <Link to="/signup">
           <SignupButton renderAs="button">
-          
             <h2>Sign up</h2>
-            
           </SignupButton>
-      </Link>
+        </Link>
 
-      <Link to="../../screens/LoginPage" > 
+        <Link to="/login">
           <SignupButton renderAs="button">
-          
             <h2>Login</h2>
-            
           </SignupButton>
-      </Link>
-
-
-    </ButtonContaner>
-  </SignupBackground>
+        </Link>
+      </ButtonContaner>
+    </SignupBackground>
   );
 };
 

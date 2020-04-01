@@ -1,6 +1,6 @@
 import React from "react";
-import AboutUsContainer from "../AboutUsContainer";
-import NavBar from "../../reusableComponents/Navbar";
+import AboutUsContainer from "../../components/AboutPage/AboutUsContainer";
+import NavBar from "../../components/reusableComponents/Navbar";
 
 const AboutScreen = () => {
   return (
