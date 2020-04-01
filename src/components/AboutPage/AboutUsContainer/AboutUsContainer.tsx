@@ -20,6 +20,8 @@ const AboutUsContainer = ({ image }: Props) => {
         </InformationContainer>
         <AboutUsImage />
       </AboutContainer>
+
+      <AboutSubCard />
     </>
   ) : (
     <AboutContainer>
