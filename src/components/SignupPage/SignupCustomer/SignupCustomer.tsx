@@ -6,7 +6,7 @@ import {
   SignupButton,
   ComponentContaner,
   RowObjects,
-  Signdiv,
+  SignDiv,
   CheckBox
   
   } from "./styled";
@@ -24,7 +24,7 @@ const SignupCustomer = () => {
     <ComponentContaner>
       <Tital>Signup page</Tital>
     
-      <Signdiv>
+      <SignDiv>
           
         <Text>Your email</Text>      
         <InputFeiled/>
@@ -54,7 +54,7 @@ const SignupCustomer = () => {
 
         <SignupButton> Sign in </SignupButton>
     
-      </Signdiv>
+      </SignDiv>
     </ComponentContaner>
   </>
   );
