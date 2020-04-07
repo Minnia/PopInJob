@@ -2,6 +2,16 @@ import React from "react";
 import { InformationContainer, AboutContainer } from "./styled";
 import AboutUsImage from "../AboutUsImage";
 import AboutSubCard from "../AboutSubCard";
+import {scroller} from "react-scroll";
+
+scroller.scrollTo('AboutUs', {
+  duration: 1500,
+  delay: 100,
+  smooth: true,
+  containerId: 'AboutUsContainer',
+  offset: 50
+})
+
 const AboutUsContainer = () => {
   return (
     <>

@@ -6,7 +6,7 @@ import {
   LoginButton,
   ComponentContaner,
   RowObjects,
-  Logindiv,
+  LoginDiv,
   CheckBox
   
   } from "./styled";
@@ -21,7 +21,7 @@ const LoginCustomer = () => {
     <ComponentContaner>
       <Tital>Login page</Tital>
     
-      <Logindiv>
+      <LoginDiv>
           
         <Text>Your email</Text>      
         <InputFeiled/>
@@ -48,7 +48,7 @@ const LoginCustomer = () => {
 
         <LoginButton> Login </LoginButton>
     
-      </Logindiv>
+      </LoginDiv>
     </ComponentContaner>
   </>
   );

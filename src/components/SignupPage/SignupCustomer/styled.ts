@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Button } from "react-bootstrap";
 
-export const Signdiv = styled.div`
+export const SignDiv = styled.div`
 
 background: #bfb1c4;
 justify-content: space-evenly;
