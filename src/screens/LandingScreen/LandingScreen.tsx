@@ -12,60 +12,14 @@ import SigninComponet from "../../components/LandingPage/SignupComponent";
 import AboutUsContainer from "../../components/AboutPage/AboutUsContainer";
 import YourJourney from "../../components/YouPage/YourJourney";
 
+import NavScorll from "../../components/reusableComponents/NavScroll";
+
 import Scroll from 'react-scroll';
 import {Link, Element} from 'react-scroll'
 
 var scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
 
-scroll.scrollToTop();
-
-scroll.scrollToBottom();
-
-
-var scroller = Scroll.scroller;
-
-scroller.scrollTo('YourJourney', {
-  duration: 1500,
-  delay: 100,
-  smooth: true,
-  offset: 50
-})
-
-scroller.scrollTo('ContentContainer', {
-  duration: 1500,
-  delay: 100,
-  smooth: true,
-  offset: 50
-})
-
-scroller.scrollTo('CollaboratingCompanies', {
-  duration: 1500,
-  delay: 100,
-  smooth: true,
-  offset: 50
-})
-
-scroller.scrollTo('NewsLetterBox', {
-  duration: 1500,
-  delay: 100,
-  smooth: true,
-  offset: 50
-})
-
-scroller.scrollTo('UserStatistics', {
-  duration: 1500,
-  delay: 100,
-  smooth: true,
-  offset: 50
-})
-
-scroller.scrollTo('AboutUsContainer', {
-  duration: 1500,
-  delay: 100,
-  smooth: true,
-  offset: 50
-})
 
 
 const LandingPage = () => {
@@ -73,41 +27,8 @@ const LandingPage = () => {
   return (
     <Background>
       <NavBar />
+      <NavScorll/>
       
-      <Link onClick={() => scroll.scrollToBottom()}>
-        <h1>Scroll To Bottom</h1>
-      </Link>
-      <br/>
-      
-      <Link onClick={() => scroller.scrollTo("YourJourney")}>
-        <h1>Scroll To Journey</h1>
-      </Link>
-      <br/>
-
-      <Link onClick={() => scroller.scrollTo("ContentContainer")}>
-        <h1>Scroll To Content Container</h1>
-      </Link>
-      <br/>
-     
-      <Link onClick={() => scroller.scrollTo("CollaboratingCompanies")}>
-        <h1>Scroll To Collaborating Companies</h1>
-      </Link>
-      <br/>
-
-      <Link onClick={() => scroller.scrollTo("NewsLetterBox")}>
-        <h1>Scroll To News Letter</h1>
-      </Link>
-      <br/>
-
-      <Link onClick={() => scroller.scrollTo("UserStatistics")}>
-        <h1>Scroll To Statistics</h1>
-      </Link>
-      <br/>
-
-      <Link onClick={() => scroller.scrollTo("AboutUsContainer")}>
-        <h1>Scroll To About</h1>
-      </Link>
-      <br/>
 
       <br/>
       <SigninComponet />
