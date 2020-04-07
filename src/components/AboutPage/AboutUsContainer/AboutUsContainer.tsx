@@ -1,7 +1,7 @@
 import React from "react";
 import { InformationContainer, AboutContainer } from "./styled";
 import AboutUsImage from "../AboutUsImage";
-
+import AboutSubCard from "../AboutSubCard";
 const AboutUsContainer = () => {
   return (
     <>
@@ -19,6 +19,8 @@ const AboutUsContainer = () => {
         </InformationContainer>
         <AboutUsImage />
       </AboutContainer>
+    
+      <AboutSubCard/>
     </>
   );
 };
