@@ -6,5 +6,6 @@
 
 # What stage is the application in?
 
-- Early stage, using sketch from Figma to create website
-- First step is to create the landing page
+- Early stage, using sketch from Figma 
+- The web platform will have a landing page for all users, as well as a career page
+- There will be separate pages for employers and candidates
