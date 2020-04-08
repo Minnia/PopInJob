@@ -9,7 +9,7 @@ export const YourJourneySteps = styled.div`
   color: ${constants.colors.redCurrant};
 `;
 
-export const StepsTitle = styled.h2`
+export const StepsTitle = styled.h3`
   font-weight: bold;
   color: ${constants.colors.redCurrant};
 `;

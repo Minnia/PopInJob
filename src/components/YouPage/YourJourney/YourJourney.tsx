@@ -2,6 +2,8 @@ import React from "react";
 import { YourJourneySteps, StepsTitle, StepsDescription } from "./styled";
 import { Element } from "react-scroll";
 import Title from "../../reusableComponents/Title";
+import Image from "../../reusableComponents/Image";
+import CVLayout from "../../../assets/svg/CVLayout.svg";
 const YourJourney = () => {
   return (
     <Element name="YourJourney">
@@ -14,39 +16,31 @@ const YourJourney = () => {
       >
         <Title title={`What do I need to do?`} />
       </div>
-      <YourJourneySteps>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-around",
+        }}
+      >
         <YourJourneySteps>
           <StepsTitle>1- Submit your resumé</StepsTitle>
-          <StepsDescription>
-            At PopInJob, we want to make sure you can build your network in
-            order to create your own success
-          </StepsDescription>
+
+          <img src={CVLayout} height={50} width={50} />
         </YourJourneySteps>
         <YourJourneySteps>
           <StepsTitle>2- Get contacted</StepsTitle>
-          <StepsDescription>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
-            ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed
-            finibus sem feugiat id.
-          </StepsDescription>
+          <img src={CVLayout} height={50} width={50} />
         </YourJourneySteps>
         <YourJourneySteps>
           <StepsTitle>3- Interview</StepsTitle>
-          <StepsDescription>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
-            ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed
-            finibus sem feugiat id.
-          </StepsDescription>
+          <img src={CVLayout} height={50} width={50} />
         </YourJourneySteps>
         <YourJourneySteps>
           <StepsTitle>4- Time for work!</StepsTitle>
-          <StepsDescription>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
-            ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed
-            finibus sem feugiat id.
-          </StepsDescription>
+          <img src={CVLayout} height={50} width={50} />
         </YourJourneySteps>
-      </YourJourneySteps>
+      </div>
     </Element>
   );
 };
