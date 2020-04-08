@@ -32,7 +32,7 @@ const AboutSubCard = () => {
       <hr/>
         
         <SubText>
-          <SubButton>sub naw</SubButton>
+          <SubButton>Subscribe now</SubButton>
         </SubText>
         
       </SubBox>
