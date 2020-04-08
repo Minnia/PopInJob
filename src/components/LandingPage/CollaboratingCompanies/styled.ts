@@ -9,3 +9,15 @@ export const CollaboratorsDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
 `;
+
+export const LogTitel = styled.h1`
+  display: flex;
+  justify-content: center;
+`;
+
+export const LogoSize = styled.div`
+  padding: 0 16px;
+
+  height: 400px;
+  overflow-y: scroll;
+`;

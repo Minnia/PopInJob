@@ -5,8 +5,12 @@ import NavBar from "../../components/reusableComponents/Navbar";
 const AboutScreen = () => {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
+      <AboutUsContainer image />
       <AboutUsContainer />
+      {/* <CollaboratingCompanies /> */}
+
+      {/* <Footer /> */}
     </>
   );
 };

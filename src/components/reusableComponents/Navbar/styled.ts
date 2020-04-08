@@ -19,3 +19,9 @@ export const NavBarTitle = styled.div`
   color: white;
   width: 100vw;
 `;
+
+export const StaticBackground = styled.div`
+  background: #5e3342;
+  background-size: cover;
+  height: 80px;
+`;
