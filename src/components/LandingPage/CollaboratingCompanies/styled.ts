@@ -19,5 +19,4 @@ export const LogoSize = styled.div`
   padding: 0 16px;
 
   height: 400px;
-  overflow-y: scroll;
 `;

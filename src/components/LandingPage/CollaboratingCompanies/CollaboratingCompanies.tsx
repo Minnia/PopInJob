@@ -21,14 +21,14 @@ const CollaboratingCompanies = () => {
       </div>
       <LogoSize>
         <CollaboratorsDiv>
-          {logos.map(logo => (
+          {logos.map((logo) => (
             <Image
               key={logo}
               style={{
                 backgroundImage: `url(${logo})`,
                 width: 200,
                 height: 200,
-                marginRight: 8
+                marginRight: 8,
               }}
             />
           ))}

@@ -10,7 +10,7 @@ import Footer from "../../reusableComponents/Footer";
 const LandingPage = () => {
   return (
     <Background>
-      <NavBar video />
+      <NavBar />
       <ContentContainer
         contentText={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
           ultricies metus, nec ornare dui. Nullam accumsan risus sapien, sed

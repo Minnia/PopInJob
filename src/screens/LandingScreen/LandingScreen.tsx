@@ -50,7 +50,7 @@ const LandingPage = () => {
       <hr />
 
       <Element name="About">
-        <AboutUsContainer />
+        <AboutUsContainer image />
       </Element>
 
       <h1>
